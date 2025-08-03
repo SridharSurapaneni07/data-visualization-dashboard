@@ -1,6 +1,6 @@
 # Data Visualization Dashboard Project
 
-This repository contains an adapted version of a Flask-based data visualization dashboard for dynamic filtering and interactive charting of structured data (e.g., topics, regions, sectors). It uses MongoDB for storage, Python for ingestion, and JavaScript (Plotly) for visualizations.
+This is a Flask-based data visualization dashboard for dynamic filtering and interactive charting of structured data (e.g., topics, regions, sectors). It uses MongoDB for storage, Python for ingestion, and JavaScript (Plotly) for visualizations.
 
 ## Key Components
 - **Datastore**: MongoDB for flexible JSON-like data storage.
