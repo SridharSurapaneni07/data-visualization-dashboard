@@ -16,6 +16,4 @@ This repository contains an adapted version of a Flask-based data visualization 
 4. For visualizations, the JS script handles rendering.
 
 ## License
-MIT (adapted from original).
-
-For queries, contact via GitHub issues.
+MIT
