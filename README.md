@@ -9,6 +9,17 @@ This repository contains an adapted version of a Flask-based data visualization 
 - **Features**: Filters (topic, region, sector, PEST, source), loading indicators, and API endpoints.
 - **Demo Screenshot**: See dashboard.png.
 
+## API Endpoints
+| **Endpoint**      | **Method** | **Description**                 |
+|-------------------|------------|---------------------------------|
+| `/`               | GET        | Renders the dashboard page      |
+| `/api/data`       | GET        | Fetches data from MongoDB based on filters |
+
+Example API Call:  
+```http
+http://127.0.0.1:5000/api/data?topic=oil&region=Europe
+```
+
 ## Setup
 1. Set up MongoDB (see datastore-setup.md).
 2. Run data_ingest.py to ingest data.
