@@ -18,5 +18,3 @@ The visualization uses JavaScript (Plotly.js) to render interactive charts from 
 - Plotly.js for interactive plots.
 - Fetch API for data retrieval.
 - Dynamic filters update charts in real-time.
-
-This setup enables browser-based visualizations without additional installs.
