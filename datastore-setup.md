@@ -8,6 +8,8 @@
 1. Install MongoDB (download from https://www.mongodb.com/try/download/community; or via brew: `brew install mongodb-community`).
 2. Start MongoDB server: `mongod --dbpath /path/to/data` (or use service: `brew services start mongodb-community`).
 3. Create database and collection:
-
 use visualization_db;
 db.createCollection("data");
+5. (Optional) Verify: `show dbs;` and `db.data.find();` after ingestion.
+
+This setup provides a simple document store for the JSON data.
