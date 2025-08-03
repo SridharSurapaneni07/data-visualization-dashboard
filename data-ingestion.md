@@ -5,12 +5,11 @@ The ingestion process loads sample data from jsondata.json (containing entries w
 
 ## Steps
 1. **Extract**: Read the JSON file using Python's json module.
-2. **Transform**: No major transformations needed (assume clean JSON); but can add validation (e.g., ensure fields exist).
+2. **Transform**: No major transformations needed. but can add validation (e.g., ensure fields exist).
 3. **Load**: Use PyMongo to insert documents into the 'data' collection. Handles lists of dicts for bulk insert.
 
 ## Tools Used
 - Python with json and pymongo.
-- Assumes MongoDB setup complete and jsondata.json present.
 
 ## Example Output
 The script prints "Inserted X documents..." where X is the number of entries (e.g., based on original JSON size).
